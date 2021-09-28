@@ -258,7 +258,7 @@ def nextRound():
             bank.remove(bank[1])
         else:
             bank.remove(bank[0])
-        finalRound()
+            finalRound()
 
 def finalRound():
     global word
